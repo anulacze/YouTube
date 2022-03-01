@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="youtube.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/3f35b67c/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/3f35b67c/img/favicon_32x32.png" sizes="32x32">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <img class="hamburger" src="icons/hamburger.svg">
+            <img class="YTlogo" src="icons/youtube_logo.svg">
+            <span class="country-code">PL</span>
+        </div>
+        <div class="center-header">
+            <div class="search-input-wrapper">
+                <input type="text" class="search-input" placeholder="Szukaj">
+                <button class="keyboard"><img src="images/tia.png"></button>
+            </div>
+            <button class="search-button"><img id="magnifier" src="icons/magnifier.svg"></button>
+            <button class="header-button mic-button"><img class="mic" src="icons/mic.svg"></button>
+        </div>
+        <div class="right-header">
+            <button class="header-button right-header-button mobile-search"><img id="magnifier" src="icons/magnifier.svg"></button>
+            <button class="header-button right-header-button mobile-search"><img class="icon" src="icons/mic.svg"></button>
+            <button class="header-button right-header-button"><img class="icon" src="icons/camera.svg"></button>
+            <button class="header-button right-header-button"><img class="icon" src="icons/table.svg"></button>
+            <button id="dzwonek" class="header-button right-header-button"><img class="icon" src="icons/bell.svg"><div class="numerek">2</div></button>
+            <button class="header-button right-header-button"><img class="avatar" src="https://yt3.ggpht.com/yti/APfAmoF0-7u6ZFNNr6LJDl4XsofUQT47XGvIlqXmr43fFw=s88-c-k-c0x00ffffff-no-rj-mo"></button>
+        </div>
+    </header>
+    <aside class="left-bar">
+        <nav class="top-nav">
+            <a href="#"><img class="icon" src="icons/home.svg">Główna</a>
+            <a href="#"><img class="icon" src="icons/compass.svg">Odkrywaj</a>
+            <a href="#"><img class="icon" src="icons/subscription.svg">Subskrypcje</a>
+        </nav>
+        <nav class="top-nav">
+            <a href="#"><img class="icon" src="icons/library.svg">Biblioteka</a>
+            <a class="media" href="#"><img class="icon" src="icons/history.svg">Historia</a>
+            <a class="media" href="#"><img class="icon" src="icons/your.svg">Twoje filmy</a>
+            <a class="media" href="#"><img class="icon" src="icons/clock.svg">Do obejrzenia</a>
+            <a class="media" href="#"><img class="icon" src="icons/like.svg">Polubione filmy</a>
+            <a class="media" href="#"><img class="icon" src="icons/more.svg">Pokaż więcej</a>
+        </nav>
+        <nav class="top-nav media">
+            <h1>SUBSKRYPCJE</h1>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/e7kO8HAQ9aA4Pu_s2ArRBcBmHd0ah9uQmLL8MVv92iPTJ3pgR7a8nuBorDA2rwMVNEFjmwa_Pw=s88-c-k-c0x00ffffff-no-rj">A Small Wardrobe<div class="dot"></div></a>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/ytc/AKedOLQRDVnjq-SQcce6cjvKV4tcdjISNJDELencAI453Q=s88-c-k-c0x00ffffff-no-rj">Annura's ASMR<div class="dot"></div></a>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/ytc/AKedOLRcLPPQsLNPc5mIOaq2MML7kLCFI4bmcFWHavNaPw=s88-c-k-c0x00ffffff-no-rj">ASMR Glow<div class="dot"></div></a>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/ytc/AKedOLSvk4A1JBbzt_oXvpLjgVIeRiT5tOIIPj-Oa4-79g=s88-c-k-c0x00ffffff-no-rj">B. Jones Style<div class="dot"></div></a>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/ytc/AKedOLSbkhIGlZlddDhO23zFxAKSmrCZT8bBIWDKscuMRA=s88-c-k-c0x00ffffff-no-rj">Boho Beutiful Yoga<div class="dot"></div></a>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/ytc/AKedOLTKzAdyoH-2RueF2-FCpopvV7kn12cG3zLrcxHnK5o=s88-c-k-c0x00ffffff-no-rj">Brad Mondo<div class="dot"></div></a>
+            <a href="#"><img class="icon-pic" src="https://yt3.ggpht.com/ytc/AKedOLShSemiQPotuRkGaDtmhbeW_LY62cob6d4NlB8F7g=s88-c-k-c0x00ffffff-no-rj">Dem3000<div class="dot"></div></a>
+            <a href="#"><img class="icon" src="icons/more.svg">Pokaż jeszcze 72</a>
+        </nav>
+        <nav class="bottom-nav media">
+            <a class="bottom-menu" href="#">Informacje</a>
+            <a class="bottom-menu" href="#">Centrum prasowe</a>
+            <a class="bottom-menu" href="#">Prawa autorskie</a>
+            <a class="bottom-menu" href="#">Skontaktuj się z nami</a>
+            <a class="bottom-menu" href="#">Twórcy</a>
+            <a class="bottom-menu" href="#">Reklamy</a>
+            <a class="bottom-menu" href="#">Deweloperzy</a>
+        </nav>
+        <nav class="bottom-nav media">
+            <a class="bottom-menu" href="#">Warunki</a>
+            <a class="bottom-menu" href="#">Prywatność</a>
+            <a class="bottom-menu" href="#">Zasady i bezpieczeństwo</a>
+            <a class="bottom-menu" href="#">Jak działa YouTube</a><br/>
+            <a class="bottom-menu" href="#">Przetestuj nowe funkcje</a>
+        </nav>
+        <nav class="copyright media">
+            &copy 2022 Google LLC
+        </nav>
+    </aside>
+    <main>
+        <div class="roller">
+            <div class="roller-corka">
+                <button class="roller-button is-active">Wszystko</button>
+                <button class="roller-button">Fitness</button>
+                <button class="roller-button">Skecze</button>
+                <button class="roller-button">Playlisty YouTube Mix</button>
+                <button class="roller-button">ASMR</button>
+                <button class="roller-button">Uroda</button>
+                <button class="roller-button">Programy kulinarne</button>
+                <button class="roller-button">Muzyka</button>
+                <button class="roller-button">Sitcomy</button>
+                <button class="roller-button">Animacja</button>
+                <button class="roller-button">Na żywo</button>
+                <button class="roller-button">Literura</button>
+                <button class="roller-button">Roblox</button>
+                <button class="roller-button">Piłka nożna</button>
+                <button class="roller-button">Rapowanie</button>
+                <button class="roller-button">Sportowe gry wideo</button>
+                <button class="roller-button">Przygodowe gry akcji</button>
+                <button class="roller-button">Sztuki plastyczne</button>
+                <button class="roller-button">Ostatnio przesłane</button>
+                <button class="roller-button">Obejrzane</button>
+                <button class="roller-button">Nowe rekomendacje</button>
+            </div>
+            <div class="gradient">
+                <button class="arrow-right"><img id="strzalka" src="icons/arrow_right.svg"></button>
+            </div>
+        </div>
+        <div class="latata-mnie-nie-kocha">
+            <div class="content">
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+                <div class="video">
+                    <a class="video-pic" href="#"><img class="mini-video" src="https://i.ytimg.com/vi/huCL7ug_4fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAluf9dwBZ2HyoFzx6XR3TkwIZFsQ">
+                        <div class="time">
+                            16:48
+                        </div>
+                    </a>
+                    <div class="title">
+                        <div>
+                            <a class="title-pic" href="#"><img src="https://yt3.ggpht.com/MP_G_WU2aT8tms0XUyCjxUisCFuOvKXE0YDBFV68YL3BVLKMi-7ZxL6Ts0ZEUz7H2qcxOL3ysU4=s68-c-k-c0x00ffffff-no-rj">
+                            </a>
+                        </div>
+                        Only when Luisa being a "Cry Baby" || Encanto 2021 Disney
+                    </div>
+                    <div class="author">
+                        Jobayed Hossen
+                    </div>
+                    <div class="views">
+                        618 tys. wyświetleń <span class="views-dot">&bull;</span> 3 tygodnie temu
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
